@@ -47,6 +47,6 @@ I've included some example scripts.
 - `list_top_11.py` will list your top artists and tracks
 - `play_fav_artist.py` will play your favourite artist on your first available device
 
-To run any of them, simply type `python [_script_.py]`
+To run any of them, simply type `python [script.py]`
 
 To find out what else you can do with the Tekore library in interacting with Spotify, [view their docs](https://tekore.readthedocs.io/en/stable/index.html).
