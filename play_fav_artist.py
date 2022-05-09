@@ -1,20 +1,13 @@
 import tekore as tk
 from auth import get_user_token
+from player import get_first_available_device
 
 # Get the user's token to be able to make requests on their account
 token = get_user_token()
 spotify = tk.Spotify(token)
 
 #  Find the first available device
-available_devices = spotify.playback_devices()
-
-# If we have no available devices, exit the program
-if len(available_devices) == 0:
-    print('No devices are available for this user.\nExiting...')
-    exit()
-
-# Just choose the first available device to playback on
-available_device = available_devices[0]
+available_device = get_first_available_device(spotify)
 
 # Find the user's top artist
 top_artist = spotify.current_user_top_artists(limit=1).items[0]

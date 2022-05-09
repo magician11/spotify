@@ -47,6 +47,7 @@ I've included some example scripts.
 
 - `list_top_11.py` will list your top artists and tracks
 - `play_fav_artist.py` will play your favourite artist on your first available device
+- `search_and_play.py` will play songs found for the command line search
 
 To run any of them, simply type `python [script.py]`
 
