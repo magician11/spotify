@@ -19,7 +19,8 @@ This README assumes the latest version of your Python install is run using `pyth
 ### Setup your credentials file
 
 Create a file called `credentials.config`
-Goto the [Spotify for Developers Dashboard](https://developer.spotify.com/dashboard/applications) and create an app.
+
+Go to the [Spotify for Developers Dashboard](https://developer.spotify.com/dashboard/applications) and create an app.
 
 Then add the following lines to `credentials.config`
 
