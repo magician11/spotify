@@ -1,4 +1,3 @@
-import enum
 import tekore as tk
 from auth import get_user_token
 
