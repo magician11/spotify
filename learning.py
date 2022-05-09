@@ -1,7 +1,8 @@
 import tekore as tk
 
-client_id, client_secret, redirect_uri = tk.config_from_file(
-    'credentials.config')
+CONFIG_FILE = 'credentials.config'
+
+client_id, client_secret, redirect_uri = tk.config_from_file(CONFIG_FILE)
 
 print(client_id)
 print(client_secret)
@@ -29,6 +30,9 @@ user_token = tk.prompt_for_user_token(
     redirect_uri,
     scope=tk.scope.every
 )
+
+tk.config_to_file(CONFIG_FILE, client_id, client_secret,
+                  redirect_uri + (user_token.refresh_token,))
 
 spotify = tk.Spotify(user_token)
 # spotify.token = user_token
