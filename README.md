@@ -16,6 +16,12 @@ This README assumes the latest version of your Python install is run using `pyth
 
 `pip install tk`
 
+### Install the SpeechRecognition library
+
+If you want to search for songs by voice, you'll need this library.
+
+`pip install SpeechRecognition`
+
 ### Setup your credentials file
 
 Create a file called `credentials.config`
@@ -48,6 +54,7 @@ I've included some example scripts.
 - `list_top_11.py` will list your top artists and tracks
 - `play_fav_artist.py` will play your favourite artist on your first available device
 - `search_and_play.py` will play songs found for the command line search
+- `voice_search_and_play.py` will play a song that you search for by voice
 
 To run any of them, simply type `python [script.py]`
 
