@@ -14,13 +14,19 @@ This README assumes the latest version of your Python install is run using `pyth
 
 ### Install the Tekore library
 
+Install the client for the Spotify Web API for Python:
+
 `pip install tk`
 
-### Install the SpeechRecognition library
+### Install the speech libraries
 
-If you want to search for songs by voice, you'll need this library.
+If you want to search for songs by voice, you'll need this library:
 
 `pip install SpeechRecognition`
+
+And to hear the software talk to you, you'll need these:
+
+`pip install playsound gTTS`
 
 ### Setup your credentials file
 
