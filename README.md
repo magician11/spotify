@@ -24,6 +24,8 @@ If you want to search for songs by voice, you'll need this library:
 
 `pip install SpeechRecognition`
 
+Also check out the other requirements for Speech Recognition, such as PyAudio, [here](https://pypi.org/project/SpeechRecognition/).
+
 And to hear the software talk to you, you'll need these:
 
 `pip install playsound gTTS`
