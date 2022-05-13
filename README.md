@@ -1,6 +1,6 @@
 # Spotify
 
-All things fun and games with Spotify.
+A demo on how to interact with the Spotify API using the Python programming language.
 
 ## Setup
 
@@ -16,7 +16,7 @@ This README assumes the latest version of your Python install is run using `pyth
 
 Install the client for the Spotify Web API for Python:
 
-`pip install tk`
+`pip install tekore`
 
 ### Install the speech libraries
 
