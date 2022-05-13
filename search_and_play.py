@@ -26,4 +26,5 @@ tracks, = spotify.search(query=search_string, limit=NUM_ITEMS)
 print(f'About to play {len(tracks.items)} tracks for "{search_string}" on {available_device.name} ({available_device.type})')
 for index, track in enumerate(tracks.items):
     print(index+1, track.name, 'by', track.artists[0].name)
-spotify.playback_start_tracks([t.id for t in tracks.items])
+spotify.playback_start_tracks(
+    [t.id for t in tracks.items], device_id=available_device.id)
