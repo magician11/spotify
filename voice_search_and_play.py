@@ -27,4 +27,5 @@ if(len(tracks.items) == 0):
 message = f'Ok, playing "{tracks.items[0].name}" by "{tracks.items[0].artists[0].name}"...'
 print(message)
 text_to_speech(message)
-spotify.playback_start_tracks([tracks.items[0].id])
+spotify.playback_start_tracks(
+    [tracks.items[0].id], device_id=available_device.id)
