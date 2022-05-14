@@ -18,6 +18,8 @@ Install the client for the Spotify Web API for Python:
 
 `pip install tekore`
 
+[Tekore docs](https://tekore.readthedocs.io/en/stable/index.html)
+
 ### Install the speech libraries
 
 If you want to search for songs by voice, you'll need this library:
@@ -55,7 +57,7 @@ You'll then see in your `credentials.config` the added line
 
 `SPOTIFY_USER_REFRESH = aaa`
 
-## Using the Spotify API
+## Demos
 
 I've included some example scripts.
 
@@ -65,5 +67,3 @@ I've included some example scripts.
 - `voice_search_and_play.py` will play a song that you search for by voice
 
 To run any of them, simply type `python [script.py]`
-
-To find out what else you can do with the Tekore library in interacting with Spotify, [view their docs](https://tekore.readthedocs.io/en/stable/index.html).
