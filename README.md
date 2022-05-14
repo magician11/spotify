@@ -12,6 +12,10 @@ While versions of Python may come with your OS, I used [pyenv](https://github.co
 
 This README assumes the latest version of your Python install is run using `python`
 
+### Clone this repository
+
+`git clone https://github.com/magician11/spotify.git`
+
 ### Install the Tekore library
 
 Install the client for the Spotify Web API for Python:
